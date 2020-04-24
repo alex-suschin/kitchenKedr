@@ -1,0 +1,60 @@
+.content-about {
+    padding: 97px 0 0 0;
+    .litera {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 78px;
+        line-height: 0.8;
+        color: #313131;
+        float: left;
+        margin: -6px 14px 0px 0;
+    }
+    .first-p {
+        text-align: left;
+        margin-bottom: 66px;
+    }
+    p {
+        width: 70.732%;
+        margin: 0 auto;
+        text-align: left;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 162%;
+        color: #000000;
+        margin-bottom: 67px;
+    }
+    .note {
+        position: relative;
+        max-width: 1082px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 130%;
+        text-align: center;
+        color: #000000;
+        margin: 0 auto;
+        background: url(../img/svg/qoute.svg) no-repeat center top;
+        padding: 45px 0 0 0;
+        margin-bottom: 75px;
+    }
+    .note::before {
+        content: '';
+        display: block;
+        width: 76px;
+        height: 1px;
+        background: #CECECE;
+        position: absolute;
+        top: 13px;
+        left: 40%;
+    }
+    .note::after {
+        content: '';
+        display: block;
+        width: 76px;
+        height: 1px;
+        background: #CECECE;
+        position: absolute;
+        top: 13px;
+        right: 40%;
+    }
+}

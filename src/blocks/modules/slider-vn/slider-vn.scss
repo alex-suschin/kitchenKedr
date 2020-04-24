@@ -1,0 +1,94 @@
+.slider-vn {
+    padding: 0 0 0 0;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    .slick-prev,
+    .slick-next {
+        width: 16px;
+        height: 30px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        content: none;
+    }
+    .slick-next {
+        background: url(../img/svg/next.svg) no-repeat center;
+        right: -76px;
+        z-index: 2;
+    }
+    .slick-prev {
+        background: url(../img/svg/prev.svg) no-repeat center;
+        left: -76px;
+        z-index: 2;
+    }
+    .slick-dots {
+        bottom: -38px;
+    }
+    .slick-dots li {
+        box-sizing: border-box;
+        width: 4px;
+        height: 4px;
+        margin: 0 11px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        button {
+            box-sizing: border-box;
+            width: 4px;
+            height: 4px;
+            margin: 0;
+            padding: 0;
+            background: #8B8B8B;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+        }
+        button::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 8px;
+            height: 8px;
+            transform: translate(-50%, -50%);
+            -webkit-transition: all .2s linear;
+            -moz-transition: all .2s linear;
+            -ms-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            transition: all .2s linear;
+            background: #000000;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+            opacity: 0;
+        }
+    }
+}
+
+.slider-vn .slick-dots li:hover button::before {
+    opacity: 1;
+}
+
+.slider-vn .slick-dots li.slick-active button::before {
+    opacity: 1;
+}
+
+.slider-vn__item {
+    min-height: 430px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+}
+
+.slider-vn.slick-dotted {
+    margin-bottom: 110px;
+}

@@ -1,0 +1,108 @@
+.history {
+    padding: 57px 0 0 0;
+}
+
+.title-history {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 107.5%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 106px;
+}
+
+.history-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.history-box::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 923px;
+    background: url(../img/line-history.png) no-repeat center top;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.history-box__item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 92px;
+}
+
+.history-box__item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.history-box__item:nth-child(even) .history-box__item--img {
+    margin-left: 0;
+    margin-right: 90px;
+}
+
+.history-box__item:nth-child(even) .history-box__item--text {
+    margin-left: 90px;
+    margin-right: 0;
+}
+
+.history-box__item:nth-child(even) .history-year,
+.history-box__item:nth-child(even) .history-desc {
+    text-align: left;
+}
+
+.history-box__item--text {
+    max-width: 390px;
+    width: 100%;
+    margin-right: 90px;
+}
+
+.history-box__item--img {
+    position: relative;
+    margin-left: 90px;
+    width: 114px;
+    height: 114px;
+    background: #FFFFFF;
+    border: 3px solid #61CE70;
+    box-sizing: border-box;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
+
+.history-year {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 13px;
+    text-align: right;
+}
+
+.history-desc {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: right;
+    color: #000000;
+}

@@ -1,0 +1,47 @@
+.header {
+    padding: 24px 0 21px 0;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 0;
+}
+
+.logo {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 156.5%;
+    text-transform: uppercase;
+    color: #919191;
+    span {
+        font-weight: 900;
+        color: #23785b;
+    }
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    li {
+        margin: 0 17px;
+    }
+    a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 156.5%;
+        color: #3c3c3c;
+    }
+}
+
+.btn-quest {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 156.5%;
+    color: #000000;
+    padding: 0 0 0 31px;
+    background: url(../img/svg/inst.svg) no-repeat left center;
+}

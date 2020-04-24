@@ -1,0 +1,105 @@
+.bad-block {
+    padding: 164px 0 269px 0;
+    .title-middle {
+        margin-bottom: 14px;
+    }
+}
+
+.bad-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1304.6px;
+    height: 668.46px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    background: url(../img/decor.png) no-repeat center;
+    background-size: cover;
+}
+
+.bad-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    padding: 30px 30px 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    span {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        color: #ffffff;
+    }
+}
+
+.bad-item1 {
+    width: 455px;
+    height: 270px;
+    margin: 0 14px 13px 303px;
+}
+
+.bad-item2 {
+    width: 264px;
+    height: 209px;
+    margin: 13px 0 0 15px;
+}
+
+.bad-item3 {
+    width: 291px;
+    height: 200px;
+    margin: 0 11px 13px 143px;
+}
+
+.bad-item4 {
+    width: 300px;
+    height: 332px;
+    margin: 0 27px 0 15px;
+}
+
+.bad-item5 {
+    width: 404px;
+    height: 254px;
+    margin: -35px 0 0 0;
+}
+
+.img-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 338px;
+    height: 0;
+    overflow: hidden;
+}
+
+.img-wrap>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bad-text {
+    width: 100%;
+    max-width: 794px;
+    margin: 0 auto;
+    span {
+        display: inline-block;
+        padding: 44px 0 0 0;
+        font-weight: 300;
+        font-size: 34px;
+        line-height: 110%;
+        color: #ff774c;
+    }
+    b {
+        font-weight: 600;
+    }
+    .img-wrap {
+        float: left;
+        margin-right: 40px;
+        padding-bottom: 35.77%;
+    }
+}

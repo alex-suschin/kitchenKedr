@@ -1,0 +1,20 @@
+.slogan {
+    min-height: 388px;
+    padding: 144px 0 0 0;
+    background: url(../img/slogan-bg.jpg) no-repeat center;
+    background-size: cover;
+    .title-small {
+        margin-bottom: 5px;
+    }
+    .desc {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 139%;
+        color: #23785B;
+        img {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 0 0 6px;
+        }
+    }
+}

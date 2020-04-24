@@ -154,15 +154,12 @@ img {
     text-align: center;
     color: #000000;
     padding: 19px 0 20px 0;
+    max-width: 179px;
+    width: 100%;
 }
 
 .btn-green:hover {
     background: #6BE77C;
-}
-
-.btn-small {
-    max-width: 179px;
-    width: 100%;
 }
 
 .btn-middle {

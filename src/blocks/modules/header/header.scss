@@ -37,11 +37,29 @@
     }
 }
 
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
 .btn-quest {
+    position: relative;
     font-weight: normal;
     font-size: 16px;
     line-height: 156.5%;
     color: #000000;
     padding: 0 0 0 31px;
-    background: url(../img/svg/inst.svg) no-repeat left center;
+}
+
+.btn-quest::before {
+    content: '';
+    display: block;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    background: url(../img/inst.png) no-repeat left center;
+    background-size: contain;
 }

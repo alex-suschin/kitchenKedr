@@ -1,0 +1,38 @@
+.partners {
+    padding: 0 0 0 0;
+    .title {
+        font-weight: 300;
+        font-size: 39px;
+        line-height: 110%;
+        color: #23785B;
+        text-align: center;
+        margin-bottom: 82px;
+        img {
+            display: inline-block;
+            vertical-align: top;
+            width: 152px;
+            height: 43px;
+        }
+    }
+    p {
+        width: 100%;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 160%;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+.partners-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 18px;
+    a {
+        display: block;
+        margin: 0 44px 75px 44px;
+    }
+}

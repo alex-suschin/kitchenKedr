@@ -166,3 +166,37 @@ img {
     max-width: 233px;
     width: 100%;
 }
+
+
+/*
+    V N   S T Y L E S
+*/
+
+.vn-top-wrap {
+    padding: 127px 0 0 0;
+    min-height: 325px;
+    margin-bottom: 72px;
+    background: url(../img/top-wrap-vn.jpg) no-repeat center;
+    background-size: cover;
+    .title-small {
+        font-weight: 600;
+        text-align: left;
+        margin-bottom: 14px;
+    }
+    .breadcrumbs {
+        justify-content: start;
+        li:first-child a {
+            color: #23785B;
+            font-weight: 600;
+        }
+        li::after {
+            color: #000;
+        }
+        a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            color: #000;
+        }
+    }
+}

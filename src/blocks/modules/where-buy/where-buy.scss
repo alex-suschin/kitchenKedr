@@ -1,0 +1,40 @@
+.where-buy {
+    padding: 0 63px 0 75px;
+    min-height: 151px;
+    background: url(../img/where-buy-bg.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+    span {
+        display: block;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #23785B;
+        padding: 10px 0 0 49px;
+        background: url(../img/svg/gps.svg) no-repeat left 12px;
+        b {
+            display: block;
+            font-weight: 300;
+            color: #000000;
+        }
+    }
+}
+
+.btn-where-buy {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-image: url(../img/svg/arr-green-small.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}

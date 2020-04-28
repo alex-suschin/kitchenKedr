@@ -1,7 +1,4 @@
 import "./import/modules";
 import "./import/slick.min";
-import "%modules%/slider-vn/slider-vn";
-import "%modules%/social-life/social-life";
-import "%modules%/decors-items/decors-items";
-import "%modules%/decision-items/decision-items";
-import "%modules%/callback/callback";
+import "./import/jquery.formstyler.min";
+import "./import/jquery.fancybox.min";

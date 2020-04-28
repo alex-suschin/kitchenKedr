@@ -1,0 +1,37 @@
+.decision-card {
+    padding: 0 0 0 0;
+}
+
+.decision-card__top-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+    div {
+        margin-right: 66px;
+        span {
+            display: block;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 120%;
+            color: #23785B;
+        }
+        b {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 120%;
+            color: #000000;
+        }
+    }
+    p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 130%;
+        color: #000000;
+        margin-bottom: 0;
+    }
+    .decision-card-option {
+        margin-right: 79px;
+    }
+}

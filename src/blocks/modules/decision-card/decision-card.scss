@@ -1,5 +1,5 @@
 .decision-card {
-    padding: 0 0 0 0;
+    padding: 0 0 123px 0;
 }
 
 .decision-card__top-line {
@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 75px;
+    margin-bottom: 70px;
     div {
         margin-right: 66px;
         span {
@@ -34,4 +34,82 @@
     .decision-card-option {
         margin-right: 79px;
     }
+}
+
+.decision-card-items--top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.decision-card-elem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 48.781%;
+}
+
+.decision-card-elem--img {
+    position: relative;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 62%;
+    margin-bottom: 10px;
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.decision-card-elem.frez {
+    max-width: 286px;
+    width: 100%;
+    margin-right: 30px;
+    float: left;
+    .decision-card-elem--img {
+        min-height: 572px;
+        margin-bottom: 7px;
+    }
+}
+
+.decision-card-items--bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .decision-card-elem {
+        max-width: 286px;
+        width: 100%;
+        margin-bottom: 49px;
+        img {
+            object-fit: contain;
+        }
+    }
+    .decision-card-elem--img {
+        max-width: 286px;
+        width: 100%;
+        padding-bottom: 75.875%;
+    }
+}
+
+.decision-card-elem--title {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    color: #848484;
+    margin-bottom: 4px;
+}
+
+.decision-card-elem--name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
 }

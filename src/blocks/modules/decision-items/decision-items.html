@@ -2,10 +2,194 @@
     <div class="title-style">Выберите стиль</div>
 
     <div class="style-tabs">
-        <div class="style-tab">
+        <div class="style-tab" data-switch="styles-elem1">
             <div class="style-tab--img" style="background-image: url(../img/style1.png);"></div>
             <a href="javascript: void(0);">Лофт</a>
         </div>
-
+        <div class="style-tab active" data-switch="styles-elem2">
+            <div class="style-tab--img" style="background-image: url(../img/style2.png);"></div>
+            <a href="javascript: void(0);">Классический</a>
+        </div>
+        <div class="style-tab" data-switch="styles-elem3">
+            <div class="style-tab--img" style="background-image: url(../img/style3.png);"></div>
+            <a href="javascript: void(0);">Скандинавский</a>
+        </div>
+        <div class="style-tab" data-switch="styles-elem4">
+            <div class="style-tab--img" style="background-image: url(../img/style4.png);"></div>
+            <a href="javascript: void(0);">Модерн</a>
+        </div>
+        <div class="style-tab" data-switch="styles-elem5">
+            <div class="style-tab--img" style="background-image: url(../img/style5.png);"></div>
+            <a href="javascript: void(0);">Деревенский</a>
+        </div>
     </div>
+
+    <div class="title-name-style">Стиль Лофт</div>
+    <div class="desc">Краткое описание и узнаваемые черты стиля, характерные только ему.</div>
+    <div class="styles-filter">
+        <label for=""><input checked name="type-style" type="checkbox"> <span>Все</span></label>
+        <label for=""><input name="type-style" type="checkbox"> <span>Фасады из пленки ПВХ</span></label>
+        <label for=""><input name="type-style" type="checkbox"> <span>Фасады облицованные HPL</span></label>
+    </div>
+
+    <div class="styles-elems">
+        <div class="styles-elem-item" id="styles-elem1" style="display: none;">
+            <div class="styles-elem__items">
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="styles-elem-item" id="styles-elem2">
+            <div class="styles-elem__items">
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+            </div>
+
+            <ul class="decors-page-list">
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li class="next-page">
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="styles-elem-item" id="styles-elem3" style="display: none;">
+            <div class="styles-elem__items">
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+            </div>
+        </div>
+        <div class="styles-elem-item" id="styles-elem4" style="display: none;">
+            <div class="styles-elem__items">
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+            </div>
+        </div>
+        <div class="styles-elem-item" id="styles-elem5" style="display: none;">
+            <div class="styles-elem__items">
+                <div class="styles-elem__items--item">
+                    <div class="img-style-val" style="background-image: url(../img/style-img1.jpg);"></div>
+                    <div class="name-style-val">Лофт</div>
+                    <div class="option-style-val">Вариант 1</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>

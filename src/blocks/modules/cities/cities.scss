@@ -1,0 +1,112 @@
+.vn-top-wrap.top-wrap-cities {
+    padding: 105px 0 114px 0;
+    margin-bottom: 36px;
+    .title-small {
+        width: 50%;
+        font-weight: 600;
+        font-size: 39px;
+        line-height: 100%;
+        margin-bottom: 19px;
+    }
+    .breadcrumbs {
+        margin-bottom: 14px;
+    }
+}
+
+.cities {
+    padding: 0 0 0 0;
+}
+
+.user-message {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+    color: #23785B;
+    border: 2px solid #61CE70;
+    box-sizing: border-box;
+    border-radius: 31px;
+    padding: 20px 21px 21px 26px;
+    margin-bottom: 44px;
+}
+
+.form-search-city {
+    margin-bottom: 51px;
+    .form-search-city__item {
+        position: relative;
+        width: 100%;
+    }
+    input {
+        width: 100%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: left;
+        color: #A6A6A6;
+        padding-top: 22px;
+        padding-bottom: 18px;
+        padding-left: 54px;
+        margin-bottom: 0;
+    }
+    button {
+        display: block;
+        width: 23px;
+        height: 23px;
+        background: url(../img/svg/search-ico.svg) no-repeat center;
+        background-size: cover;
+        border: none;
+        padding: 0;
+        position: absolute;
+        top: 22px;
+        left: 0;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    button:hover {
+        background: url(../img/svg/search-ico.svg) no-repeat center;
+    }
+}
+
+.cities-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 0 0 0 0;
+}
+
+.cities-word {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.cities-list__item {
+    margin-right: 110px;
+}
+
+.cities-list__item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.cities-items {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 62px;
+    a {
+        display: block;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 290%;
+        color: #000000;
+        padding: 0 0 0 42px;
+        background: url(../img/svg/city-ico.svg) no-repeat left center;
+        margin-bottom: 0.8px;
+    }
+}

@@ -6,3 +6,4 @@ import "%modules%/social-life/social-life";
 import "%modules%/decors-items/decors-items";
 import "%modules%/decision-items/decision-items";
 import "%modules%/callback/callback";
+import "%modules%/cities/cities";

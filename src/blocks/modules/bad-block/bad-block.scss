@@ -103,3 +103,122 @@
         padding-bottom: 35.77%;
     }
 }
+
+@media screen and (max-width: 1304px) {
+    .bad-items {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background-size: contain;
+    }
+    .bad-item1 {
+        margin: 0 20px 15px 20px;
+    }
+    .bad-item2 {
+        margin: 0 20px 15px 20px;
+    }
+    .bad-item3 {
+        margin: 0 20px 15px 20px;
+    }
+    .bad-item4 {
+        margin: 0 20px 15px 20px;
+    }
+    .bad-item5 {
+        margin: 0 20px 15px 20px;
+    }
+    .bad-block {
+        padding: 50px 0 155px 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bad-block {
+        padding: 50px 15px 50px 15px;
+    }
+    .bad-item1 {
+        margin: 0 8px 15px 8px;
+    }
+    .bad-item2 {
+        margin: 0 8px 15px 8px;
+    }
+    .bad-item3 {
+        margin: 0 8px 15px 8px;
+    }
+    .bad-item4 {
+        margin: 0 8px 15px 8px;
+    }
+    .bad-item5 {
+        margin: 0 8px 15px 8px;
+    }
+    .bad-text span {
+        font-size: 30px;
+        padding: 55px 0 0 0;
+    }
+    .bad-text {
+        max-width: 100%;
+        margin-top: 15px;
+        height: 284px;
+    }
+    .bad-text .img-wrap {
+        padding-bottom: 29.523%;
+        height: 284px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .bad-text {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .bad-text span {
+        font-size: 20px;
+        padding: 0 0 0 0;
+    }
+    .bad-text .img-wrap {
+        height: 86px;
+        max-width: 102px;
+        padding-bottom: 11.523%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .bad-items {
+        height: 199px;
+        position: relative;
+        max-width: 311px;
+        width: 100%;
+        background: url(../img/bad-items-mob.png) no-repeat center;
+        background-size: cover;
+        padding: 0;
+        div {
+            display: none;
+        }
+    }
+    .bad-items::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: url(../img/decor.png) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+    }
+    .bad-block .title-middle {
+        font-weight: 300;
+        font-size: 23px;
+        line-height: 107.5%;
+        margin-bottom: 7px;
+    }
+    .bad-block .desc {
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 107.5%;
+    }
+}

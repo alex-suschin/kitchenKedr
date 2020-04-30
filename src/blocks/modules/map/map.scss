@@ -16,3 +16,33 @@
     color: #23785B;
     margin-bottom: 12px;
 }
+
+@media screen and (max-width: 1250px) {
+    .map {
+        padding: 100px 0 100px 0;
+        background-size: contain;
+    }
+    .map .title-middle {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .small-text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .map .title-middle {
+        width: 100%;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 110%;
+        text-align: center;
+    }
+    .map .btn-green {
+        margin: 0 auto;
+    }
+}

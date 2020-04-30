@@ -18,3 +18,26 @@
         }
     }
 }
+
+@media screen and (max-width: 620px) {
+    .slogan .title-small {
+        font-weight: 300;
+        font-size: 39px;
+        line-height: 100%;
+    }
+    .slogan .desc {
+        font-weight: 600;
+        font-size: 39px;
+        line-height: 139%;
+    }
+    .slogan .desc img {
+        display: block;
+        margin: 0 auto;
+    }
+    .slogan {
+        min-height: 587px;
+        padding: 175px 0 15px 0;
+        background: url(../img/slogan-mob.jpg) no-repeat center;
+        background-size: cover;
+    }
+}

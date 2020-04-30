@@ -37,3 +37,88 @@
     top: 0;
     right: 0;
 }
+
+@media screen and (max-width: 1750px) {
+    .design-photos1 {
+        max-width: 450px;
+        width: 100%;
+        height: 392px;
+    }
+    .design-photos2 {
+        max-width: 480px;
+        width: 100%;
+        height: 412px;
+        top: initial;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    .design-photos1 {
+        left: -50px;
+        top: -20px;
+        z-index: -2;
+    }
+    .design {
+        overflow: hidden;
+    }
+    .design-photos2 {
+        right: -45px;
+        bottom: -55px;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    .design-photos1 {
+        max-width: 300px;
+        width: 100%;
+        height: 260px;
+        left: 0;
+        top: 0;
+    }
+    .design-photos2 {
+        max-width: 280px;
+        width: 100%;
+        height: 247px;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .design-photos1 {
+        max-width: 250px;
+        width: 100%;
+        height: 214px;
+        left: 0;
+        top: -14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .design {
+        min-height: 568px;
+        padding: 176px 0 167px 0;
+    }
+    .design-photos1 {
+        width: 336.02px;
+        height: 379.83px;
+        background: url(../img/dis-mob1.png) no-repeat center;
+        background-size: cover;
+        left: -30px;
+        top: -189px;
+    }
+    .design-photos2 {
+        width: 412.19px;
+        height: 414.09px;
+        background: url(../img/dis-mob2.png) no-repeat center;
+        background-size: cover;
+        right: -30px;
+        bottom: -242px;
+    }
+    .design .title-middle {
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 110%;
+    }
+}

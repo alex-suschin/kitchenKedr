@@ -84,3 +84,27 @@
         margin-bottom: 26px;
     }
 }
+
+@media screen and (max-width: 1366px) {
+    .top-slider .top-slider__item {
+        min-height: 550px;
+    }
+    .top-slider--title {
+        font-size: 42px;
+        span {
+            font-size: 38px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .top-slider .top-slider__item {
+        min-height: 400px;
+    }
+    .top-slider--title {
+        font-size: 36px;
+    }
+    .top-slider--title span {
+        font-size: 30px;
+    }
+}

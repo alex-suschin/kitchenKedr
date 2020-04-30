@@ -145,6 +145,10 @@ img {
     width: 100%;
 }
 
+.ov-h {
+    overflow: hidden;
+}
+
 
 /*
     V N   S T Y L E S
@@ -177,5 +181,39 @@ img {
             line-height: 100%;
             color: #000;
         }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    html,
+    body {
+        min-width: 320px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    a:focus {
+        outline: none;
+    }
+    .container {
+        width: 100% !important;
+        max-width: 1250px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .title-middle {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .btn-green {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 100%;
+        padding: 16px 0 15px 0;
+        max-width: 220px;
+        width: 100%;
     }
 }

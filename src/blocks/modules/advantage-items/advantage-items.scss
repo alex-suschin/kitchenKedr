@@ -105,6 +105,12 @@
 }
 
 @media screen and (max-width: 620px) {
+    .advantage-items {
+        padding: 92px 15px 65px 15px;
+    }
+    .advantage-items-box {
+        padding: 0;
+    }
     .advantage-items__right .title-small {
         font-weight: 300;
         font-size: 23px;
@@ -114,6 +120,7 @@
         font-weight: 500;
         font-size: 23px;
         line-height: 120%;
+        margin-bottom: 35px;
     }
     .advantage-items__right .desc img {
         width: 99px;
@@ -125,5 +132,8 @@
     .advantage-item {
         width: 100%;
         margin-bottom: 57px;
+    }
+    .advantage-items__right .title-small {
+        margin-bottom: 2px;
     }
 }

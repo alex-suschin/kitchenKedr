@@ -179,7 +179,7 @@
         margin-bottom: 54px;
     }
     .price-item:last-child {
-        margin-bottom: 29px;
+        margin-bottom: 23px;
     }
     .price-item--img {
         height: 59px;
@@ -207,7 +207,25 @@
     .price-item:after {
         right: initial;
         left: 14px;
-        top: 118%;
+        top: 124%;
         background-size: 65%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .price {
+        padding: 82px 6px 135px 6px;
+    }
+    .price .title-small br {
+        display: none;
+    }
+    .price-items {
+        padding: 2px 9px;
+    }
+    .price-item--img {
+        flex-shrink: 0;
+    }
+    .price-total {
+        padding: 0 10px;
     }
 }

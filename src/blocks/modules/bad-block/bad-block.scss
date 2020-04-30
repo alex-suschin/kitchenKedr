@@ -214,11 +214,28 @@
         font-weight: 300;
         font-size: 23px;
         line-height: 107.5%;
-        margin-bottom: 7px;
+        margin-bottom: 9px;
     }
     .bad-block .desc {
         font-weight: 500;
         font-size: 21px;
         line-height: 107.5%;
+        margin-bottom: 35px;
+    }
+    .bad-block {
+        padding: 53px 4.5px 55px 4.5px;
+    }
+    .bad-text span {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 110%;
+        margin-top: -9px;
+        padding-right: 10px;
+    }
+    .bad-text {
+        margin: 9px 0 0 16px;
+    }
+    .bad-text .img-wrap {
+        margin-right: 20px;
     }
 }

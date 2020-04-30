@@ -104,11 +104,17 @@
         }
     }
     .footer-box {
-        padding: 0 10px 37px 10px;
+        padding: 0 10px 48px 10px;
     }
 }
 
 @media screen and (max-width: 600px) {
+    .footer {
+        padding: 49px 9px 0 9px;
+    }
+    .footer-menu-title {
+        margin-bottom: 20px;
+    }
     .footer-box {
         flex-direction: column-reverse;
     }
@@ -117,8 +123,13 @@
     }
     .copyright {
         align-items: start;
+        padding: 16px 16px 25px 16px;
     }
     .copyright .copyright-text {
         color: #000000;
+        margin-bottom: 29px;
+    }
+    .slogan-footer {
+        width: 100%;
     }
 }

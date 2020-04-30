@@ -184,6 +184,10 @@ img {
     }
 }
 
+.decors-top-wrap {
+    background-image: url(../img/top-wrap-vn.jpg);
+}
+
 @media screen and (max-width: 1250px) {
     html,
     body {
@@ -215,5 +219,47 @@ img {
         padding: 16px 0 15px 0;
         max-width: 220px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .vn-top-wrap {
+        padding: 136px 20px 114px 20px;
+        margin-bottom: 40px;
+    }
+    .decors-top-wrap {
+        background: url(../img/decors-vn-mob.jpg) no-repeat center;
+        background-size: cover;
+        min-height: 346px;
+    }
+    .vn-top-wrap .title-small {
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    .decors-top-wrap .breadcrumbs a {
+        color: #fff;
+    }
+    .vn-top-wrap .breadcrumbs li:first-child a {
+        color: #fff;
+        font-weight: 600;
+    }
+    .vn-top-wrap .breadcrumbs li::after {
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .vn-top-wrap .title-small {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 100%;
+    }
+    .vn-top-wrap .breadcrumbs a {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .vn-content {
+        padding: 0 6px;
     }
 }

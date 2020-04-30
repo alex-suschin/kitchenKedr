@@ -38,3 +38,42 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 992px) {
+    .where-buy {
+        padding: 0 63px 0 25px;
+    }
+    .btn-where-buy {
+        flex-shrink: 0;
+    }
+    .where-buy span {
+        padding: 10px 15px 0 49px;
+    }
+    .decors-page-list {
+        margin-left: initial;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .where-buy {
+        background: url(../img/where-buy-mob.jpg) no-repeat center;
+        min-height: 97px;
+        background-size: cover;
+        padding: 0 30px 0 40px;
+        margin-bottom: 43px;
+        span {
+            font-weight: 500;
+            padding: 20px 0 20px 38px;
+            font-size: 12px;
+            line-height: 110%;
+            background: url(../img/svg/gps.svg) no-repeat left 20px;
+            background-size: 19%;
+            b {
+                font-weight: 500;
+            }
+        }
+    }
+    .br-where-buy {
+        display: block;
+    }
+}

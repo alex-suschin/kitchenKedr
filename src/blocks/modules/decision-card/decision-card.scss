@@ -1,3 +1,8 @@
+.decision-card-top-wrap {
+    background: url(../img/top-wrap-vn-decision.jpg) no-repeat center;
+    background-size: cover;
+}
+
 .decision-card {
     padding: 0 0 123px 0;
 }
@@ -112,4 +117,104 @@
     font-size: 18px;
     line-height: 100%;
     color: #000000;
+}
+
+@media screen and (max-width: 1230px) {
+    .decision-card-items--bottom .decision-card-elem {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .decision-card-elem.frez .decision-card-elem--img {
+        min-height: auto;
+        padding-bottom: 0;
+        height: auto;
+    }
+    .decision-card-elem.frez {
+        max-width: 180px;
+    }
+    .decision-card-elem.frez .decision-card-elem--img img {
+        position: static;
+        object-fit: initial;
+    }
+    .decision-card-items--bottom .decision-card-elem {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .decision-card-items--bottom .decision-card-elem {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .decision-card-top-wrap {
+        background: url(../img/top-wrap-vn-decision-mob.jpg) no-repeat center;
+        background-size: cover;
+        min-height: 346px;
+        margin-bottom: 27px;
+    }
+    .decision-card__top-line {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 37px;
+    }
+    .decision-card__top-line div {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .decision-card__top-line .decision-card-option {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .decision-card-items--top {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        .decision-card-elem {
+            width: 100%;
+            margin-bottom: 31px;
+        }
+    }
+    .decision-card-items--bottom {
+        flex-direction: column;
+    }
+    .decision-card-items--bottom .decision-card-elem--img {
+        max-width: 100%;
+    }
+    .decision-card-elem.frez {
+        float: none;
+        margin-bottom: 49px;
+    }
+    .decision-card-items--bottom .decision-card-elem {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .decision-card-items--bottom .decision-card-elem img {
+        object-fit: contain;
+        position: static;
+    }
+    .decision-card-items--bottom .decision-card-elem--img {
+        max-width: 100%;
+        padding-bottom: 0;
+        height: auto;
+    }
+    .decision-card__top-line p {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 162%;
+    }
+    .decision-card-items--top {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .decision-card-elem.frez {
+        max-width: 100%;
+    }
 }

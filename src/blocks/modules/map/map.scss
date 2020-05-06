@@ -51,6 +51,8 @@
     .map {
         min-height: 568px;
         padding: 162px 0 100px 0;
+        background: url(../img/map-bg.png) no-repeat center 50px;
+        background-size: contain;
     }
     .map .title-middle {
         margin-bottom: 23px;

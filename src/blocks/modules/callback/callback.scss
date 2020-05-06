@@ -1,3 +1,9 @@
+.vn-top-wrap.callback-top-wrap {
+    background: url(../img/callback-bg.jpg) no-repeat right center;
+    background-size: cover;
+    background-position: right center;
+}
+
 .callback-box {
     padding: 39px 0 0 0;
     .title {
@@ -120,5 +126,39 @@ form {
         -moz-transform: rotate(360deg) scale(1);
         -ms-transform: rotate(360deg) scale(1);
         -o-transform: rotate(360deg) scale(1);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .vn-top-wrap.callback-top-wrap {
+        background: url(../img/callback-bg-mob.jpg) no-repeat right center;
+        background-size: cover;
+        background-position: center;
+        min-height: 346px;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .callback-box .title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 122%;
+        text-align: left;
+        padding-left: 14px;
+        margin-bottom: 30px;
+    }
+    .callback-box .title br {
+        display: none;
+    }
+    form input {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .callback-box {
+        padding: 0 0 0 0;
+    }
+    form textarea {
+        margin: 0 0 54px 0;
     }
 }

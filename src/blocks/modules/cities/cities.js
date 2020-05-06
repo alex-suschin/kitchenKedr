@@ -1,9 +1,14 @@
+import "../../../js/import/masonry.pkgd";
+
 $(function() {
 
+
+
     // $('.cities-list').masonry({
-    //     itemSelector: '.cities-list__item',
-    //     columnWidth: 245
+    //     columnWidth: 200,
+    //     itemSelector: '.cities-list__item'
     // });
+
 
 
     $('.btn-popup-buy').click(function(e) {

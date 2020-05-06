@@ -71,10 +71,10 @@
 }
 
 .cities-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: start;
+    // flex-wrap: wrap;
     padding: 0 0 0 0;
 }
 
@@ -87,7 +87,9 @@
 }
 
 .cities-list__item {
-    margin-right: 110px;
+    // margin-right: 110px;
+    max-width: 270px;
+    width: 100%;
 }
 
 .cities-list__item:nth-child(4n) {

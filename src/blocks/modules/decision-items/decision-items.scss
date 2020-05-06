@@ -1,3 +1,8 @@
+.decision-top-wrap {
+    background: url(../img/top-wrap-vn-decision.jpg) no-repeat center;
+    background-size: cover;
+}
+
 .decision-box {
     padding: 39px 0 68px 0;
     .desc {
@@ -180,4 +185,120 @@
 
 .styles-elems {
     padding: 42px 0 0 0;
+}
+
+@media screen and (max-width: 1250px) {
+    .styles-elem__items--item {
+        max-width: 285px;
+        width: 24%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .img-style-val {
+        height: 195px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .styles-elem__items--item {
+        width: 32%;
+    }
+    .style-tab .style-tab--img {
+        display: none;
+    }
+    .style-tabs {
+        border-bottom: 1px solid #E2E2E2;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .style-tabs {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 30px;
+    }
+    .style-tab {
+        margin-bottom: 20px;
+    }
+    .title-name-style {
+        text-align: left;
+    }
+    .decision-box .desc {
+        display: none;
+    }
+    .styles-filter {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .styles-filter label {
+        margin: 0 0 19px 0;
+    }
+    .checked+span {
+        color: #23785B;
+    }
+    .title-style {
+        text-align: left;
+        margin: 0 0 19px 0;
+    }
+    .title-style::before,
+    .title-style::after {
+        content: none;
+    }
+    .style-tabs {
+        padding-bottom: 9px;
+        margin-bottom: 35px;
+    }
+    .title-name-style {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+    .styles-filter span {
+        margin-left: 13px;
+        margin-top: 4px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .decision-top-wrap {
+        background: url(../img/top-wrap-vn-decision-mob.jpg) no-repeat center;
+        background-size: cover;
+        min-height: 346px;
+        margin-bottom: 30px;
+    }
+    .styles-elem__items--item {
+        width: 48%;
+        margin-bottom: 60px;
+    }
+    .img-style-val {
+        height: 219px;
+    }
+    .decision-box {
+        padding: 0 0 68px 0;
+    }
+    .style-tabs,
+    .title-style,
+    .title-name-style,
+    .styles-filter {
+        padding-left: 14px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .decision-top-wrap .vn-content {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .styles-elem__items--item {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
 }

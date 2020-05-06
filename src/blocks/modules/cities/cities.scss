@@ -110,3 +110,102 @@
         margin-bottom: 0.8px;
     }
 }
+
+.popup-wrap {
+    background: rgba(0, 0, 0, 0.64);
+    display: block;
+    opacity: 0;
+    transition: opacity .5s, top .5s;
+    overflow: auto;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+.popup-buy {
+    display: block;
+    position: relative;
+    background: #fff;
+    max-width: 750px;
+    margin: 100px auto;
+    padding: 66px 85px 70px;
+    visibility: hidden;
+    transform: translateY(-800px);
+    z-index: 99999;
+    -webkit-transform: translateY(-800px);
+    -moz-transform: translateY(-800px);
+    -ms-transform: translateY(-800px);
+    -o-transform: translateY(-800px);
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: .3s linear;
+}
+
+.popup-active {
+    visibility: visible;
+    opacity: 1;
+    outline: 0;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.title-popup {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.desc-popup {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.popup-buy {
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 447px;
+        width: 100%;
+        margin: 0 auto;
+        input {
+            width: 100%;
+            margin-bottom: 17px;
+        }
+        button {
+            margin: 33px auto 0 auto;
+        }
+    }
+}
+
+.close-popup {
+    background-color: #F2F2F2;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-image: url(../img/svg/close-ico.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -35px;
+    right: 0;
+}

@@ -18,9 +18,9 @@ $(function() {
             $('html').addClass('ov-h');
 
 
-            var firstClickCart = true;
+            var firstClick = true;
             $(document).bind('click.myEventCart', function(e) {
-                if (!firstClickCart && $(e.target).closest('#popup-buy').length == 0) {
+                if (!firstClick && $(e.target).closest('#popup-buy').length == 0) {
                     $('#popup-buy-wrap').removeClass('popup-active');
                     $('#popup-buy').removeClass('popup-active');
                     $('.btn-popup-buy').removeClass('active');
@@ -28,7 +28,7 @@ $(function() {
                     $(document).unbind('click.myEventCart');
                 }
 
-                firstClickCart = false;
+                firstClick = false;
             });
         }
 
@@ -41,6 +41,44 @@ $(function() {
         $('.btn-popup-buy').removeClass('active');
         $('html').removeClass('ov-h');
         $(document).unbind('click.myEventCart');
+    });
+
+
+    $('.cities-items a').click(function(w) {
+        $(this).addClass('active');
+
+        var popupCities = $('#popup-cities');
+
+
+        if (popupCities.hasClass('popup-active') == false) {
+            $('#popup-cities-wrap').addClass('popup-active');
+            $('#popup-cities').addClass('popup-active');
+            $('html').addClass('ov-h');
+
+
+            var firstClickCities = true;
+            $(document).bind('click.myEventCartCities', function(w) {
+                if (!firstClickCities && $(w.target).closest('#popup-cities').length == 0) {
+                    $('#popup-cities-wrap').removeClass('popup-active');
+                    $('#popup-cities').removeClass('popup-active');
+                    $('.cities-items a').removeClass('active');
+                    $('html').removeClass('ov-h');
+                    $(document).unbind('click.myEventCartCities');
+                }
+
+                firstClickCities = false;
+            });
+        }
+
+        w.preventDefault();
+    });
+
+    $('.js-close-cities').click(function() {
+        $('#popup-cities-wrap').removeClass('popup-active');
+        $('#popup-cities').removeClass('popup-active');
+        $('.cities-items a').removeClass('active');
+        $('html').removeClass('ov-h');
+        $(document).unbind('click.myEventCartCities');
     });
 
     // $('.btn-popup-buy').click(function() {

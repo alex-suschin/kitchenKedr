@@ -147,6 +147,27 @@
     -o-transition: .3s linear;
 }
 
+.popup-cities {
+    display: block;
+    position: relative;
+    background: #fff;
+    max-width: 1210px;
+    margin: 100px auto;
+    padding: 47px 57px 15px 66px;
+    visibility: hidden;
+    transform: translateY(-800px);
+    z-index: 99999;
+    -webkit-transform: translateY(-800px);
+    -moz-transform: translateY(-800px);
+    -ms-transform: translateY(-800px);
+    -o-transform: translateY(-800px);
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: .3s linear;
+}
+
 .popup-active {
     visibility: visible;
     opacity: 1;
@@ -208,4 +229,71 @@
     position: absolute;
     top: -35px;
     right: 0;
+}
+
+.popup-cities {
+    .title-popup {
+        margin-bottom: 8px;
+        text-align: left;
+    }
+    .desc-popup {
+        text-align: left;
+        margin-bottom: 54px;
+    }
+}
+
+.popup-cities-item--name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 157.5%;
+    color: #23785B;
+    margin-bottom: 6px;
+}
+
+.popup-cities-item--adress {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 157.5%;
+    color: #181818;
+}
+
+.popup-cities-item--phones {
+    a {
+        display: block;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 157.5%;
+        color: #181818;
+    }
+}
+
+.popup-cities-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 38px;
+    margin-bottom: 38px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.popup-cities-list:last-child {
+    border: none;
+}
+
+.popup-cities-item {
+    width: 25%;
+    border-right: 1px solid #D8D8D8;
+    min-height: 138px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.popup-cities-item:nth-child(4n) {
+    border: none;
+}
+
+.popup-cities-item:first-child {
+    padding-left: 0;
 }

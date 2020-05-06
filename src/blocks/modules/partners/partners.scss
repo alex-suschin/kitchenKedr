@@ -36,3 +36,46 @@
         margin: 0 44px 75px 44px;
     }
 }
+
+@media screen and (max-width: 1010px) {
+    .partners-items a {
+        margin: 0 35px 55px 35px;
+    }
+    .partners-items {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .partners-items {}
+    .partners-items a {
+        margin: 0 15px 45px 15px;
+    }
+    .partners-items a img {}
+    .partners .title {
+        font-weight: 300;
+        font-size: 22px;
+        text-align: left;
+        line-height: 130%;
+        margin-bottom: 44px;
+        padding-left: 11px;
+    }
+    .partners .title img {
+        width: 82px;
+        height: 24px;
+        vertical-align: middle;
+    }
+    .content-about .partners p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .partners-items a {
+        width: 21%;
+    }
+}

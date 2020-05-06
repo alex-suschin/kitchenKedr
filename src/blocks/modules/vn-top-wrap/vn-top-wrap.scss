@@ -1,0 +1,22 @@
+@media screen and (max-width: 992px) {
+    .vn-top-wrap-about {
+        padding: 150px 0 150px 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .vn-top-wrap-about .vn-title {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 100%;
+        margin-bottom: 10px;
+    }
+    .breadcrumbs a {
+        font-size: 12px;
+    }
+    .vn-top-wrap-about {
+        padding: 136px 0 80px 0;
+        background: url(../img/about-bg-mob.jpg) no-repeat center;
+        background-size: cover;
+    }
+}

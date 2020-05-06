@@ -58,3 +58,39 @@
         right: 40%;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .content-about p {
+        width: 100%;
+        margin-bottom: 46px;
+    }
+    .content-about .note::after {
+        right: initial;
+        left: 62%;
+    }
+    .content-about .note::before {
+        left: initial;
+        right: 62%;
+    }
+    .content-about {
+        padding: 29px 10px 68px 10px;
+    }
+    .content-about p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 160%;
+    }
+    .content-about .note {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        margin-bottom: 43px;
+        padding: 36px 6px 0 6px;
+    }
+    .content-about .first-p {
+        margin-bottom: 52px;
+    }
+    .content-about .litera {
+        margin: 3px 14px 0px 0;
+    }
+}

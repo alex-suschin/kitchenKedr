@@ -7,6 +7,13 @@ $(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         variableWidth: true,
-        swipeToSlide: true
+        swipeToSlide: true,
+        responsive: [{
+            breakpoint: 451,
+            settings: {
+                arrows: false,
+                dots: true
+            }
+        }]
     });
 });

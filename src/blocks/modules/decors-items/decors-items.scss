@@ -91,6 +91,7 @@ a.full-size-btn {
     left: 50%;
     margin-left: -18px;
     z-index: 10;
+    opacity: 0;
     background: url(../img/svg/full-size-ico.svg) no-repeat center;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -115,6 +116,7 @@ a.full-size-btn {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
+    opacity: 1;
 }
 
 .decors-item:hover .decors-item--img::after {

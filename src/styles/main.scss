@@ -220,6 +220,12 @@ img {
         max-width: 220px;
         width: 100%;
     }
+    .btn-green:hover {
+        background: #61CE70;
+    }
+    .btn-green:active {
+        background: #6BE77C;
+    }
 }
 
 @media screen and (max-width: 800px) {

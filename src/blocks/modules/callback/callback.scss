@@ -107,6 +107,10 @@ form {
     background: url(../img/svg/success-ico.svg) no-repeat center;
 }
 
+.success-message.active {
+    display: flex;
+}
+
 .active .success-ico {
     animation: animsuccess 0.5s;
     -webkit-animation: animsuccess 0.5s;

@@ -30,7 +30,7 @@
 <body>
     @@include("../../blocks/modules/header/header.html")
 
-    <div class="vn-top-wrap top-wrap-cities" style="background-image: url(../img/cities-bg.jpg);">
+    <div class="vn-top-wrap top-wrap-cities">
         <div class="container">
             <ul class="breadcrumbs">
                 <li><a href="#">Главная</a></li>
@@ -44,7 +44,10 @@
 
     <div class="vn-content">
         <div class="container">
-            <div class="user-message">Проверить что ваша столешница не подделка, легко! Просто загляните под нее</div>
+            <div class="user-message">
+                <div class="user-message-mob-img"></div>
+                <span>Проверить что ваша столешница не подделка, легко! Просто загляните под нее</span>
+            </div>
             @@include("../../blocks/modules/cities/cities.html")
         </div>
     </div>

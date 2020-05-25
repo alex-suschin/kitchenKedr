@@ -14,6 +14,7 @@ $(function() {
     $('.btn-popup-buy').click(function(e) {
         $(this).addClass('active');
 
+
         var popupCont = $('#popup-buy');
 
 
@@ -52,20 +53,21 @@ $(function() {
     $('.cities-items a').click(function(w) {
         $(this).addClass('active');
 
-        var popupCities = $('#popup-cities');
+        var popupCities = $($(this).data('city'));
+        var popupCitiesChildren = popupCities.children('.popup-cities');
 
 
         if (popupCities.hasClass('popup-active') == false) {
-            $('#popup-cities-wrap').addClass('popup-active');
-            $('#popup-cities').addClass('popup-active');
+            $($(this).data("city")).addClass('popup-active');
+            $(popupCitiesChildren).addClass('popup-active');
             $('html').addClass('ov-h');
 
 
             var firstClickCities = true;
             $(document).bind('click.myEventCartCities', function(w) {
-                if (!firstClickCities && $(w.target).closest('#popup-cities').length == 0) {
-                    $('#popup-cities-wrap').removeClass('popup-active');
-                    $('#popup-cities').removeClass('popup-active');
+                if (!firstClickCities && $(w.target).closest(popupCitiesChildren).length == 0) {
+                    $('.popup-wrap').removeClass('popup-active');
+                    $(popupCitiesChildren).removeClass('popup-active');
                     $('.cities-items a').removeClass('active');
                     $('html').removeClass('ov-h');
                     $(document).unbind('click.myEventCartCities');
